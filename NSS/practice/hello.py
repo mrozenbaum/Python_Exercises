@@ -79,7 +79,7 @@ class Zoo:
 
 
 a_zoo = Zoo("Zoolandia")
-# a_zoo.add_animal("Tortoise", "Tommy")
+a_zoo.purchase_animal("Tortoise", "Tommy")
 a_zoo.list_animals()
 
 a_zoo.list_animals.__doc__ # To view the docstring for the method

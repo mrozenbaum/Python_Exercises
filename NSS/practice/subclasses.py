@@ -57,5 +57,6 @@ class Cat(Animal, IsWhiskered, IsClawed):
 
 
 fido = Dog("fido")
+print(fido)
 
 mr_whiskers = Cat("Mr whiskers")
